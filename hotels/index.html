@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"></script>
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="style.css">
+   <title>Document</title>
+</head>
+
+<body>
+
+   <div class="wrapper">
+
+      <header>
+         <div class="container">
+            <nav class="navbar navbar-expand-md navbar-light">
+               <a class="navbar-brand" href="#"><span>Indo</span>Tourism</a>
+               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                  aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+               </button>
+
+               <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav ml-auto">
+                     <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                     <li class="nav-item"><a class="nav-link" href="#">About us</a></li>
+                     <li class="nav-item"><a class="nav-link" href="#">Projects</a></li>
+                     <li class="nav-item"><a class="nav-link" href="#">Contact us</a></li>
+                  </ul>
+               </div>
+            </nav>
+         </div>
+      </header>
+
+      <main>
+         <div class="banner">
+            <div class="img-div">
+               <h2>I LIKE TO ASK THE SAME QUESTION</h2>
+               <h3>MANY MANY TIMES</h3>
+               <div class="ask-me-wrapper">
+                  <div class="ask-me"><a href="#">Ok ask me</a></div>
+               </div>
+            </div>
+         </div>
+
+         <div class="container-fluid">
+            <div class="row justify-content-center">
+               <div class="block1 col-11 col-md-10">
+                  <div id="slider">
+                     <h4>Place You Must Visit In Your Lifetime</h4>
+
+                     <div class="slide-wrapper">
+                        <div class="slide slide1">
+                           <div class="arrows">
+                              <div class="prev" onclick="changeSlide(-1)"></div>
+                              <div class="next" onclick="changeSlide(1)"></div>
+                           </div>
+                        </div>
+                        <h4>Black Lagoune</h4>
+                     </div>
+                     <div class="slide-wrapper hiden">
+                        <div class="slide slide2">
+                           <div class="arrows">
+                              <div class="prev" onclick="changeSlide(-1)"></div>
+                              <div class="next" onclick="changeSlide(1)"></div>
+                           </div>
+                        </div>
+                        <h4>Dubrovnik</h4>
+                     </div>
+                     <div class="slide-wrapper hiden">
+                        <div class="slide slide3">
+                           <div class="arrows">
+                              <div class="prev" onclick="changeSlide(-1)"></div>
+                              <div class="next" onclick="changeSlide(1)"></div>
+                           </div>
+                        </div>
+                        <h4>New Zeland</h4>
+                     </div>
+                     <div class="slide-wrapper hiden">
+                        <div class="slide slide4">
+                           <div class="arrows">
+                              <div class="prev" onclick="changeSlide(-1)"></div>
+                              <div class="next" onclick="changeSlide(1)"></div>
+                           </div>
+                        </div>
+                        <h4>Shiganshina</h4>
+                     </div>
+                     <div class="slide-wrapper hiden">
+                        <div class="slide slide5">
+                           <div class="arrows">
+                              <div class="prev" onclick="changeSlide(-1)"></div>
+                              <div class="next" onclick="changeSlide(1)"></div>
+                           </div>
+                        </div>
+                        <h4>Iceland</h4>
+                     </div>
+                     
+                     
+                  </div>
+               </div>
+            </div>
+         </div>
+
+         <div class="body-text">
+            <div class="container">
+               <div class="body-text-content">
+                  <h2>We've since expanded our life to 43 sites aroud the world</h2>
+                  <h3>43 Places to See Before You Die</h3>
+               </div>
+               <div class="row justify-content-aroud">
+                  <div class="col-6 col-lg-3">
+                     <div class="circle"><div class="circle1"></div></div>
+                     <h6><a href="#"> Sites za Warudo</a></h6>
+                  </div>
+                  <div class="col-6 col-lg-3">
+                     <div class="circle"><div class="circle2"></div></div>
+                     <h6><a href="#"> Shopping</a></h6>
+                  </div>
+                  <div class="col-6 col-lg-3">
+                     <div class="circle"><div class="circle3"></div></div>
+                     <h6><a href="#"> Photography</a></h6>
+                  </div>
+                  <div class="col-6 col-lg-3">
+                     <div class="circle"><div class="circle4"></div></div>
+                     <h6><a href="#"> Find the best</a></h6>   
+                  </div>
+            
+         
+
+      </main>
+
+      
+   </div>
+
+   <footer>
+      <p>Designed by Speedwagon Foundaiton</p>
+   </footer>
+
+   <script src="script.js"></script>
+</body>
+
+</html>
